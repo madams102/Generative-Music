@@ -9,3 +9,5 @@ Week 7: LSTM Network training/tuning of size and iterations
 Week 8: Learn methods of getting a NN to "play along" with the generated songs in alternate voices, such as drums or a bass
 Week 9: Continue from last week, hopefully with some decent progress on implementation
 Week 10: Continue from last week, maybe with another voice if the one that was chosen works well enough
+
+Tensorflow, fluidsynth, mido
