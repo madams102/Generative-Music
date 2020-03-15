@@ -1,13 +1,7 @@
-# Generative-Music
-Week 1: Data Interpretation, figure out a method of representing MIDI files in a format that can be fed into a neural net
-Week 2: Assemble a basic neural net template that can be altered to best suit the project later on (variable sizes of hidden layers, inputs)
-Week 3: Begin training the NN
-Week 4: By this point, have a neural net with an optimal amount of hidden layers, and figure out what a good amount of iterations for training would be
-Week 5: As a neural net without memory is probably suboptimal, start work on a LSTM (or similar) network structure
-Week 6: Continue research/production of a LSTM network 
-Week 7: LSTM Network training/tuning of size and iterations
-Week 8: Learn methods of getting a NN to "play along" with the generated songs in alternate voices, such as drums or a bass
-Week 9: Continue from last week, hopefully with some decent progress on implementation
-Week 10: Continue from last week, maybe with another voice if the one that was chosen works well enough
+Used Tensorflow nightly version, for whatever reason it needed that to work properly. 
 
-Tensorflow, fluidsynth, mido
+The first time you run it, it will create the tokenizers, which will take quite a while, but each subsequent run will just read these from the output files that it creates. 
+The code for training is commented out, and it will immediately read the last checkpoint that was created to train on and product output based on that.
+
+More explanation is available on https://www.tensorflow.org/tutorials/text/transformer
+I'd probably start there and look at the full source to see what's going on 
